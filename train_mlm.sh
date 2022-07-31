@@ -1,0 +1,14 @@
+python src/run_mlm.py \
+    --model_name_or_path bert-base-uncased \
+    --dataset_name yahoo_answers_topics \
+    --do_train \
+    --do_eval \
+    --output_dir ckpt/pre_training/yahoo_answers_topics/ \
+    --num_train_epochs 5 \
+    --per_device_train_batch_size 4 \
+    --per_device_eval_batch_size  4 \
+    --eval_steps 500 \
+    --evaluation_strategy 'steps' \
+    --save_steps 500 \
+    --save_strategy 'steps' \
+    --save_total_limit 10 
