@@ -1,5 +1,33 @@
 # Contrast-Enhanced Semi-supervised Text classification with few labels (CEST)
 
+Authors: Austin Cheng-Yun Tsai, Sheng-Ya Lin, Li-Chen Fu
+
+This repo contains the Pytorch code used to train the models used in our paper [Contrast-Enhanced Semi-supervised Text Classification with Few Labels
+](https://ojs.aaai.org/index.php/AAAI/article/view/21391), presented at AAAI 2022.
+
+If you find this work useful in your research, please cite:
+
+```
+@inproceedings{DBLP:conf/aaai/TsaiLF22,
+  author    = {Austin Cheng{-}Yun Tsai and
+               Sheng{-}Ya Lin and
+               Li{-}Chen Fu},
+  title     = {Contrast-Enhanced Semi-supervised Text Classification with Few Labels},
+  booktitle = {Thirty-Sixth {AAAI} Conference on Artificial Intelligence, {AAAI}
+               2022, Thirty-Fourth Conference on Innovative Applications of Artificial
+               Intelligence, {IAAI} 2022, The Twelveth Symposium on Educational Advances
+               in Artificial Intelligence, {EAAI} 2022 Virtual Event, February 22
+               - March 1, 2022},
+  pages     = {11394--11402},
+  publisher = {{AAAI} Press},
+  year      = {2022},
+  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/21391},
+  timestamp = {Tue, 12 Jul 2022 14:14:21 +0200},
+  biburl    = {https://dblp.org/rec/conf/aaai/TsaiLF22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
+
 
 ## How to use the code
 Our code is developed under `python=3.8`, `torch=1.8`, `CUDA=11.2`.
