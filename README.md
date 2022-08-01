@@ -1,6 +1,6 @@
-# Contrast-Enhanced Semi-supervised Text classification with few labels (CEST)
+# __Contrast-Enhanced Semi-supervised Text classification with few labels (CEST)__
 
-Authors: Austin Cheng-Yun Tsai, Sheng-Ya Lin, Li-Chen Fu
+__Authors: Austin Cheng-Yun Tsai, Sheng-Ya Lin, Li-Chen Fu__
 
 This repo contains the Pytorch code used to train the models used in our paper [Contrast-Enhanced Semi-supervised Text Classification with Few Labels
 ](https://ojs.aaai.org/index.php/AAAI/article/view/21391), presented at AAAI 2022.
